@@ -10,4 +10,4 @@ def home(request):
 
 
 def about(request):
-    return HttpResponse("<h1>About the Catcollector</h1>")
+    return render(request, "about.html")
